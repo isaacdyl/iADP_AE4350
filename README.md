@@ -13,7 +13,7 @@ re-identification manoeuvre for fault recovery.
 
 ## Layout
 
-- `+iadp/` — core package
+- `iadp/` — core package
   - `ShortPeriodAircraft.m` — truth plant (q, alpha), nonlinear pitching moment,
     first-order actuator, fault hooks (effectiveness loss, sign reversal, c.g. shift)
   - `IncrementalRLS.m` — recursive least-squares identification of the incremental model
